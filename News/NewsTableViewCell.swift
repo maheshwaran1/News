@@ -6,7 +6,7 @@
 //
 
 import UIKit
-//import SDWebImage
+import SDWebImage
 
 
 //newsTableViewCellViewModel
@@ -135,10 +135,10 @@ class NewsTableViewCell: UITableViewCell {
         else if let url = viewModel.imageURL{
             //fetch and download url image from api
             
-            /*
+            
              
              newsImageView.sd_setImage(with: url, placeholderImage: UIImage(systemName: "photo.circle"), options: .continueInBackground, completed: nil)
-             */
+             
             
             
             
